@@ -37,7 +37,7 @@ function startIntroTyping() {
 function typerStartTyping(typer) {
   typer.reset();
 
-  let text = ['certified dumbass', 'dumbass', 'Java Dev', 'forth founder | iconic llc', 'i like cattos'];
+  let text = ['HTML developer', 'utuber and a youuber', 'skeepy stan', 'a', 'Pepsi W'];
 
   text.forEach(function (language, index) {
     typer.move(null);
@@ -62,7 +62,7 @@ function startMainTyping() {
 }
 
 function switchScreen() {
-  document.title = 'Kay | home';
+  document.title = 'Skoopyy | home';
 
   $('.intro').fadeOut(1000, function () {
     $('.bg-image').fadeIn(1000);
